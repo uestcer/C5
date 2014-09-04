@@ -1,8 +1,7 @@
 C5
 ==
-___ C5 decision tree algorithm for java. ___
 
-There are only four steps for c5 scoring.
+####There are only four steps for c5 scoring.
 
 >* Parse your names file.
 
@@ -23,3 +22,5 @@ There are only four steps for c5 scoring.
 		Scoring scoring = new Scoring(trees, names);
 
 		Result result = scoring.score(inputVariables);
+
+Example: https://github.com/arging/C5/blob/master/src/test/java/c5/C5Example.java
